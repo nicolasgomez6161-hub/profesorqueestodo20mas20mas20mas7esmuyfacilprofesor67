@@ -1,0 +1,20 @@
+{
+  "name": "profesores-api",
+  "version": "1.0.0",
+  "description": "API REST de Profesores con Node.js, Express y MySQL",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "mysql2": "^3.24.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
